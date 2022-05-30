@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.e8b78c3c.css",
+    "main.js": "/Portfolio-react/static/js/main.a3cdcb33.js",
+    "static/media/me.jpg": "/Portfolio-react/static/media/me.dc2ee4bc79ee3a9a8442.jpg",
+    "static/media/Resume_Chinmay.pdf": "/Portfolio-react/static/media/Resume_Chinmay.730bb5db48f3ce36215e.pdf",
+    "index.html": "/Portfolio-react/index.html",
+    "main.e8b78c3c.css.map": "/Portfolio-react/static/css/main.e8b78c3c.css.map",
+    "main.a3cdcb33.js.map": "/Portfolio-react/static/js/main.a3cdcb33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b78c3c.css",
+    "static/js/main.a3cdcb33.js"
+  ]
+}
