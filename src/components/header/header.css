@@ -1,0 +1,62 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header_container {
+  display: flex;
+  gap: 100px;
+}
+
+.image {
+  flex-basis: 400px;
+
+  /* position: absolute; */
+}
+
+.me {
+  /* position: absolute; */
+  width: 22rem;
+  height: 35rem;
+  border-radius: 7rem 7rem 7rem 7rem;
+  /* padding: 5rem 1.5rem 1.5rem 5rem; */
+}
+
+.personal_info {
+  flex-grow: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 80px;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+  }
+} */

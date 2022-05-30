@@ -1,0 +1,88 @@
+.about_container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 45% 50%;
+  /* align-items: center; */
+  justify-items: center;
+  gap: 5%;
+}
+
+.page-heading {
+  margin-bottom: 7rem;
+}
+
+.about-me {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  align-self: stretch;
+}
+
+.about-me-design h1 {
+  font-size: 4rem;
+}
+
+.reader {
+  font-size: 1.8rem;
+  transform: translateX(13rem) translateY(-5rem) rotate(90deg);
+}
+
+.coder {
+  font-size: 1.8rem;
+  transform: translateX(7rem);
+}
+
+.editor {
+  font-size: 1.8rem;
+  transform: translateY(-10rem) translateX(7rem);
+}
+
+.sporty {
+  font-size: 1.8rem;
+  transform: rotate(-90deg) translateY(-14rem) translateX(23rem);
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.about-card {
+  background-color: var(--color-bg-variant);
+  color: #101820ff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-card:hover {
+  cursor: default;
+}
+
+.about-icon {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.about-card h5 {
+  font-size: 0.95rem;
+}
+
+.about-card small {
+  font-size: 0.7rem;
+}
+
+.about-content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-white);
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.about-content a {
+  transform: translateX(400%);
+}
